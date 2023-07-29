@@ -1,0 +1,49 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": false
+    },
+    {
+      "path": "packages/force-di",
+      "default": false,
+      "package": "force-di",
+      "versionName": "Summer '23",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "Generic DI library with support for Apex, Triggers, Visualforce and Lightning"
+    },
+    {
+      "path": "packages/fflib-apex-common",
+      "default": true,
+      "package": "fflib-apex-common",
+      "versionName": "Summer '23",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "Common Apex Library supporting Apex Enterprise Patterns and much more\n\n",
+      "dependencies": [
+        {
+          "package": "fflib-apex-mocks@1.0.0-1"
+        }
+      ]
+    },
+    {
+      "path": "packages/fflib-apex-mocks",
+      "package": "fflib-apex-mocks",
+      "versionName": "Summer '23",
+      "versionNumber": "1.0.0.NEXT",
+      "default": false,
+      "versionDescription": "An Apex mocking framework for true unit testing in Salesforce, with Stub API support"
+    }
+  ],
+  "name": "vueling",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "fflib-apex-mocks": "0HoHr000000CaSAKA0",
+    "fflib-apex-mocks@1.0.0-1": "04tHr000001Eu46IAC",
+    "force-di": "0HoHr000000CaSFKA0",
+    "force-di@1.0.0-1": "04tHr000001Eu4BIAS",
+    "fflib-apex-common": "0HoHr000000CaSKKA0",
+    "fflib-apex-common@1.0.0-1": "04tHr000001Eu4GIAS"
+  }
+}
